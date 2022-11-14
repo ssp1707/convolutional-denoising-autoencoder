@@ -112,8 +112,6 @@ Include your plot here
 
 ### Original vs Noisy Vs Reconstructed Image
 
-Include a few sample images here.
-
-
+![7 1](https://user-images.githubusercontent.com/75234965/201572475-b482e6fe-067f-4957-a9a4-40da628bad01.PNG)
 
 ## RESULT
