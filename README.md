@@ -81,6 +81,11 @@ autoencoder.fit(x_train_noisy, x_train_scaled,
                 batch_size=128,
                 shuffle=True,
                 validation_data=(x_test_noisy, x_test_scaled))
+                
+import pandas as pd
+metrics = pd.DataFrame(autoencoder.history.history)
+metrics[['loss','val_loss']].plot()
+
 decoded_imgs = autoencoder.predict(x_test_noisy)
 n = 10
 plt.figure(figsize=(20, 4))
@@ -110,7 +115,7 @@ plt.show()
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
+![7 2](https://user-images.githubusercontent.com/75234965/201574832-96ef4cb5-179c-425b-8f91-5a67a2a11da1.PNG)
 
 ### Original vs Noisy Vs Reconstructed Image
 
