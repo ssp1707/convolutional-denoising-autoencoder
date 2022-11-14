@@ -7,6 +7,7 @@ To develop a convolutional autoencoder for image denoising application.
 ## Problem Statement and Dataset
 
 ![image](https://user-images.githubusercontent.com/75235813/201460551-99b57c03-8dd9-4ec2-9d7c-1772acf980c4.png)
+
 ## Convolution Autoencoder Network Model
 
 
@@ -115,3 +116,4 @@ Include your plot here
 ![7 1](https://user-images.githubusercontent.com/75234965/201572475-b482e6fe-067f-4957-a9a4-40da628bad01.PNG)
 
 ## RESULT
+Thus, a Convolutional Auto Encoder for Denoising was sucessfully implemented.
