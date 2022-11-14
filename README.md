@@ -10,6 +10,7 @@ To develop a convolutional autoencoder for image denoising application.
 
 ## Convolution Autoencoder Network Model
 
+![image](https://user-images.githubusercontent.com/75235813/201571150-eb0f7776-287e-4bdd-b056-42386a694b96.png)
 
 ## DESIGN STEPS
 ### Step 1:
